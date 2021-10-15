@@ -1,8 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Boiler o que?
+O boilerplate é onde todo projeto usando essas carácterísticas começam.
 
-First, run the development server:
+Do mesmo jeito em que teríamos que escrever essa arquitetura over and over toda vez que rodamos `create-next-app`,
+o boilerplate surge para iniciar e finalizar a arquitetura mínima que todo projeto compartilha, tornando assim, 
+muito mais simples iniciar um projeto.
+
+## Tá, mas quais dependências vocês tem aqui?
+Quanto as dependências e suas versões, você pode encontrar facilmente no `package.json`.
+
+Quanto a dependências, estamos usando tudo que há de mais divertido e que conceitualmente se adapte ao objetivo de um e-commerce.
+
+NextJs e React - frameworks de desenvolvimento front-end.
+TS, TSX e ESLint - linguagem e Linter
+
+## Começando
+
+Primeiramente, execute o comando:
 
 ```bash
 npm run dev
@@ -10,25 +25,16 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+abra [http://localhost:3000](http://localhost:3000) no seu navegador pra ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Configurações adicionais do linter:
+- [react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+- [prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md) - desabilidado uma vez que usaremos TS.
+- [react/react-in-jsx-scope](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md) - desabilidado por que o escopo do react no next é gobal.
+- [@typescript-eslint/explicit-module-boundary-types](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md) - Quando o tipo é inferido pelo TS, não se torna obrigatório tipar o retorno.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Aprenda mais sobre
+- [o que é boileplate?](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/)
+- [documentação do nextjs](https://nextjs.org/docs) - aprenda mais sobre as features do next e suas apis.
+- [Aprenda nextjs](https://nextjs.org/learn) - tutorial interativo do next.
+- [Editor config](https://editorconfig.org/#overview) - Overview geral do editor config.
