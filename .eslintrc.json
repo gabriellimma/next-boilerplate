@@ -24,6 +24,11 @@
       "jest": false,
       "node": true
     },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
     "rules": {
       "comma-dangle": ["error", "always-multiline"],
       "prettier/prettier": ["error", {}, {

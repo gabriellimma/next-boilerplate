@@ -33,6 +33,10 @@ abra [http://localhost:3000](http://localhost:3000) no seu navegador pra ver o r
 - [react/react-in-jsx-scope](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md) - desabilidado por que o escopo do react no next é gobal.
 - [@typescript-eslint/explicit-module-boundary-types](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md) - Quando o tipo é inferido pelo TS, não se torna obrigatório tipar o retorno.
 
+## Git Hooks
+- [husky](https://typicode.github.io/husky/#/) - documentação do husky
+- [lint-staged](https://github.com/okonet/lint-staged) - documentação do lint-staged
+
 ## Aprenda mais sobre
 - [o que é boileplate?](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/)
 - [documentação do nextjs](https://nextjs.org/docs) - aprenda mais sobre as features do next e suas apis.
