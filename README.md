@@ -1,18 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Boiler o que?
-O boilerplate é onde todo projeto usando essas carácterísticas começam.
+O boilerplate é onde todos os projetos usando essas mesmas carácterísticas começam.
 
 Do mesmo jeito em que teríamos que escrever essa arquitetura over and over toda vez que rodamos `create-next-app`,
 o boilerplate surge para iniciar e finalizar a arquitetura mínima que todo projeto compartilha, tornando assim, 
 muito mais simples iniciar um projeto.
 
 ## Tá, mas quais dependências vocês tem aqui?
-Quanto as dependências e suas versões, você pode encontrar facilmente no `package.json`.
+Quanto as versões das dependências, você pode encontrar facilmente no `package.json`.
 
-Quanto a dependências, estamos usando tudo que há de mais divertido e que conceitualmente se adapte ao objetivo de um e-commerce.
+Quanto a dependências, estamos usando tudo que há de mais divertido e que conceitualmente se adapte ao objetivo de um e-commerce next/react.
 
 NextJs e React - frameworks de desenvolvimento front-end.
+
 TS, TSX e ESLint - linguagem e Linter
 
 ## Começando
@@ -35,10 +34,20 @@ abra [http://localhost:3000](http://localhost:3000) no seu navegador pra ver o r
 
 ## Git Hooks
 - [husky](https://typicode.github.io/husky/#/) - documentação do husky
+
+O husky não permite que commits que não passarem nos testes ou linters sejam feitos.
+
 - [lint-staged](https://github.com/okonet/lint-staged) - documentação do lint-staged
+
+Como o nome diz, roda linters contra os arquivos `staged` para encontrar problemas.
+
+## Testes
+- [jest](https://jestjs.io/docs/getting-started#using-typescript) - instalação do jest para typescript
 
 ## Aprenda mais sobre
 - [o que é boileplate?](https://www.freecodecamp.org/news/whats-boilerplate-and-why-do-we-use-it-let-s-check-out-the-coding-style-guide-ac2b6c814ee7/)
 - [documentação do nextjs](https://nextjs.org/docs) - aprenda mais sobre as features do next e suas apis.
 - [Aprenda nextjs](https://nextjs.org/learn) - tutorial interativo do next.
 - [Editor config](https://editorconfig.org/#overview) - Overview geral do editor config.
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
